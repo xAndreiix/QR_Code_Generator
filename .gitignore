@@ -1,0 +1,25 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environment
+.env
+.venv/
+env/
+venv/
+*.egg-info/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# QR code outputs
+*.svg
+*.png
+
+# Test output
+*.log
