@@ -34,3 +34,10 @@ generate_qr_code("https://example.com")
 
 ## Testing
 python test_qr_code_generator.py
+
+## License
+This project is licensed under the MIT License.
+
+## Author
+- Andrei Iliescu
+- Built with focus on clean UI and functional design.
