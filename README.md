@@ -2,12 +2,16 @@
 
 This Python project allows you to generate QR codes in both SVG and PNG formats from a custom string or URL. It uses the `pyqrcode` and `pypng` libraries to create high-quality QR codes suitable for websites, apps, or printed materials.
 
+---
+
 ## Features
 
 - Input validation for empty strings
 - Generates both `.svg` and `.png` versions of the QR code
 - Easy to use and extend
 - Unit tested using Python's `unittest` framework
+
+---
 
 ## File Structure
 
@@ -17,26 +21,38 @@ This Python project allows you to generate QR codes in both SVG and PNG formats 
 - `README.md`: Documentation file (this one).
 - `LICENSE`: MIT License file for open-source distribution.
 
+---
+
 ## Requirements
 
 - Python 3.x
 - `pyqrcode`
 - `pypng`
 
+---
+
 ## Installation
 
 ```bash```
 pip install pyqrcode pypng
 
+---
+
 ## Usage
 from qr_code_generator import generate_qr_code
 generate_qr_code("https://example.com")
 
+---
+
 ## Testing
 python test_qr_code_generator.py
 
+---
+
 ## License
 This project is licensed under the MIT License.
+
+---
 
 ## Author
 - Andrei Iliescu
